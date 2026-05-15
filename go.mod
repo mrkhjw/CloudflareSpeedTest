@@ -18,3 +18,6 @@ require (
 
 // Personal fork of XIU2/CloudflareSpeedTest
 // Upstream: https://github.com/XIU2/CloudflareSpeedTest
+// Fork notes:
+//   - Studying how the TCP/ICMP latency measurement and concurrent worker pool work
+//   - No functional changes intended; tweaks are for local experimentation only
