@@ -21,3 +21,5 @@ require (
 // Fork notes:
 //   - Studying how the TCP/ICMP latency measurement and concurrent worker pool work
 //   - No functional changes intended; tweaks are for local experimentation only
+//   - TODO: trace through the worker pool logic in task/tcping.go to understand
+//     how goroutine count interacts with latency variance under load
