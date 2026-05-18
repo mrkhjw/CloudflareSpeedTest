@@ -23,3 +23,5 @@ require (
 //   - No functional changes intended; tweaks are for local experimentation only
 //   - TODO: trace through the worker pool logic in task/tcping.go to understand
 //     how goroutine count interacts with latency variance under load
+//   - NOTE: upstream requires go 1.21 as of recent commits; keeping 1.18 here
+//     since that's what my local toolchain has — revisit if build issues arise
